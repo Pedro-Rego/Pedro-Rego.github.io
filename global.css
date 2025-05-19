@@ -1,4 +1,16 @@
-* {
-    background-color: #F8F9FA;
-    font-family: "Ancizar Sans", sans-serif;
+:root {
+    background-image: url(assets/background-imagejpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFF;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+a {
+    color: inherit;
 }
